@@ -48,20 +48,4 @@ namespace DynamicRunner
             }
         }
     }
-
-    public class MyClass
-    {
-        public void Execute()
-        {
-            Console.WriteLine("This is from the MyClass external class");
-        }
-    }
-    
-    public class YourClass
-    {
-        public void Execute()
-        {
-            Console.WriteLine("This is from the YourClass external class");
-        }
-    }
 }
