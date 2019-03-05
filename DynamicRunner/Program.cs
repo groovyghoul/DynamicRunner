@@ -17,7 +17,7 @@ namespace DynamicRunner
         {
             var myClass = new MyClass();
             // from file
-            string lines = File.ReadAllText(@"C:\source\prototypes\DynamicRunner\DynamicRunner\softclass.txt", Encoding.UTF8);
+            string lines = File.ReadAllText(@"softclass.txt", Encoding.UTF8);
             // from string
             //string line = "public class FooClass { public string Execute() { return \"output!\";}}";
             

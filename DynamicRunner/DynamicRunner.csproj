@@ -38,11 +38,15 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="MyClass.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="YourClass.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="SoftClass.txt" />
+      <Content Include="SoftClass.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Backender\Backender.csproj">
