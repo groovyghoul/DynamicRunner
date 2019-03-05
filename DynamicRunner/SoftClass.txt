@@ -1,0 +1,17 @@
+using DynamicRunner;
+using Backender;
+
+public class FooClass 
+{ 
+    public string Execute(string name, MyClass myClass) 
+    {
+        var yourClass = new YourClass();
+        yourClass.Execute();
+        
+        myClass.Execute(); 
+        
+        var backFoo = new BackFoo();
+        backFoo.That();
+        retorn "output! Richard's Hot " + name;
+    }
+}

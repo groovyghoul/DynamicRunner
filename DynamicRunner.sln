@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicRunner", "DynamicRunner\DynamicRunner.csproj", "{B6B4CD08-F11A-460C-93E9-5A403B26571F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backender", "Backender\Backender.csproj", "{BAACDA35-E624-4408-A804-3E8F092F2529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6B4CD08-F11A-460C-93E9-5A403B26571F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B4CD08-F11A-460C-93E9-5A403B26571F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B4CD08-F11A-460C-93E9-5A403B26571F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B4CD08-F11A-460C-93E9-5A403B26571F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAACDA35-E624-4408-A804-3E8F092F2529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAACDA35-E624-4408-A804-3E8F092F2529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAACDA35-E624-4408-A804-3E8F092F2529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAACDA35-E624-4408-A804-3E8F092F2529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
