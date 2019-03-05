@@ -31,6 +31,7 @@ namespace DynamicRunner
                         GenerateInMemory = true,
                         ReferencedAssemblies =
                         {
+                            "System.dll",
                             Assembly.GetExecutingAssembly().Location,
                             "Backender.dll"
                         }
@@ -43,6 +44,11 @@ namespace DynamicRunner
                 var obj = Activator.CreateInstance(type);
 
                 var output = type.GetMethod("Execute").Invoke(obj, new object[] { "richard", myClass });
+
+                // attempt to run a method as an action
+                var mi = type.GetMethod("FooAction");
+                var action = DelegateBuilder.BuildDelegate<Action<object, string>>(mi);
+                action(obj, "This is a message from a soft action");
                 
                 Console.WriteLine(output);
             }

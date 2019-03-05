@@ -1,5 +1,6 @@
 using DynamicRunner;
 using Backender;
+using System;
 
 public class FooClass 
 { 
@@ -13,5 +14,10 @@ public class FooClass
         var backFoo = new BackFoo();
         backFoo.That();
         return "output: " + name;
+    }
+    
+    public void FooAction(string message)
+    {
+        Console.WriteLine(message);
     }
 }
